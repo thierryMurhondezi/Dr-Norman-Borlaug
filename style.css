@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  main{ 
+    border-radius: 10px;
+    margin: 35px 10px;
+    padding: 15px;
+    background-color: rgba(238, 238,238, 255);
+    font-size: 15px;
+  
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  h1{
+    font-size:20px;
+  }
+  
+  #img-div{
+    background: white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+  }
+  #img-caption{
+  
+  }
+
+  img{
+    margin-top:2rem;
+    width: 60%;
+  }
+  
+
+  img:hover{
+    filter: opacity(.5) drop-shadow(0 0 0 #477ca7);
+  }
+  
+
+  ul{
+    max-width: 50%;
+  }
+  
+  
+  li{
+    line-height: 2; 
+    margin:1,5rem 0;
+  }
+  
+  .citation{
+    max-width: 55%;
+    margin-top: 2rem;
+    font-style: italic;
+  }
+  
+  
+  #button{
+    border-color: gray;
+    background: #313190;
+    padding:15px;
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+  }
+
+  .for-more-info{
+    margin-top: 2rem;
+    fornt-size: xx-large;
+    font-weight: bold;
+    max-width: 70%;
+  }
+
+  
+  /* Gestion de la responsivité */
+  
+  @media (max-width: 700px){
+    footer img{
+    width: 1rem;
+    }
+    ul{
+      max-width: 75%;
+    }
+  }
+    
+  
